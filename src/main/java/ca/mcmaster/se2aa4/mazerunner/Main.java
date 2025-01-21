@@ -21,7 +21,7 @@ public class Main {
                     if (line.charAt(idx) == '#') {
                         logger.info("WALL ");
                     } else if (line.charAt(idx) == ' ') {
-                        System.out.print("PASS ");
+                        logger.info("PASS ");
                     }
                 }
                 System.out.print(System.lineSeparator());
